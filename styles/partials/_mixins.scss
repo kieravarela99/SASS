@@ -1,0 +1,16 @@
+@mixin primary-btn($secondary-font-color){
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+
+}
+
+@mixin container($font-heading){
+    color: $secondary-font-color;
+    font-size: 15 px;
+    font-style: normal;
+    font-family: $font-heading;
+}

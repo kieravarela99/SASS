@@ -1,0 +1,16 @@
+.navigation{
+    background-color: black;
+    padding: 10px;
+}
+.navigation nav a {
+    color: white;
+    text-decoration: none;
+}
+.navigation div {
+    color: white;
+    display: inline;
+}
+.navigation nav {
+    display: inline;
+    float: right;
+}

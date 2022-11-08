@@ -1,0 +1,39 @@
+@import "./vendor/normalize";
+@import "./partials/colors";
+@import "./partials/mixins";
+@import "./partials/typography";
+
+body {
+    font-family: $font-primary;
+}
+
+.navigation {
+    background-color: black;
+    padding: 15px;
+    nav {
+        display: inline;
+        a{
+            color: white;
+        }
+}
+div {
+    color: white;
+    display: inline;
+}
+}
+.container {
+    padding:1rem;
+    button {
+       @include primary-btn($primary-btn);
+    }
+    h1{
+        font-family: $font-heading;
+        color: $secondary-font-color;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navigation {
+        background-color: white;
+    }
+}
